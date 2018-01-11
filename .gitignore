@@ -1,5 +1,5 @@
-# Object file
-*.o
+# Images
+*.p
 
-# Ada Library Information
-*.ali
+# Images
+traffic-signs-data/
