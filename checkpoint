@@ -1,2 +1,3 @@
-model_checkpoint_path: "traffic_sign"
+model_checkpoint_path: "origin"
 all_model_checkpoint_paths: "traffic_sign"
+all_model_checkpoint_paths: "origin"
