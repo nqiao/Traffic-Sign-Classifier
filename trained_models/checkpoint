@@ -1,3 +1,2 @@
-model_checkpoint_path: "50epoch"
-all_model_checkpoint_paths: "10epoch"
-all_model_checkpoint_paths: "50epoch"
+model_checkpoint_path: "100epoch_dropout0.75"
+all_model_checkpoint_paths: "100epoch_dropout0.75"
