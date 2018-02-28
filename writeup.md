@@ -61,7 +61,10 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 As a first step, I decided to convert the images to grayscale because grayscale image has only one layer which could decrease the number of parameters in the neural network and save training time. 
 
 
-As the last step, I normalized the image data. In my opinion, convolutional neural networks don't rely on normalization much. I did because the course suggested to do so and it might increase the efficiency of the CNN. Since the result of normalization is in the range of [-1,1], it's unable to plot the result.
+As the last step, I normalized the image data. In my opinion, convolutional neural networks don't rely on normalization much. I did because the course suggested to do so and it might increase the efficiency of the CNN. Since the result of normalization is in the range of [-1,1], it's unable to plot the result.  
+
+
+I tried data augmentation with Keras's ImageDataGenerator, including rotation, vertical and horizontal movement, but the result is not ideal: 80% validation accuracy. This implementation can be checked in the *Augmentor_Keras.ipynb*.
 
 
 
