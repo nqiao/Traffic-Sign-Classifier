@@ -3,3 +3,6 @@
 
 # Images
 traffic-signs-data/
+
+# Models
+/trained_models/*
