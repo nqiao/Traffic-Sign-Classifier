@@ -4,5 +4,6 @@
 # Images
 traffic-signs-data/
 
-# Models
+# Models and graphs
 /trained_models/*
+/logs/*
